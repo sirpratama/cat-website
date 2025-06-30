@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-ragdoll-blue-900 font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-ragdoll-blue-600 hover:bg-ragdoll-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-ragdoll-gray-50 text-ragdoll-blue-600 border border-ragdoll-blue-600 px-6 py-3 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .heading-1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-display font-bold text-ragdoll-blue-900 leading-tight;
+  }
+  
+  .heading-2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-display font-semibold text-ragdoll-blue-900 leading-tight;
+  }
+  
+  .heading-3 {
+    @apply text-2xl md:text-3xl font-display font-semibold text-ragdoll-blue-800 leading-tight;
+  }
+  
+  .text-body {
+    @apply text-lg text-ragdoll-gray-500 leading-relaxed;
+  }
+} 

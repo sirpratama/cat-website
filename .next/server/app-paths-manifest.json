@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/available-cats/page": "app/available-cats/page.js",
+  "/about/page": "app/about/page.js",
+  "/care-guide/page": "app/care-guide/page.js",
+  "/adoption-process/page": "app/adoption-process/page.js",
+  "/breed-info/page": "app/breed-info/page.js"
+}
