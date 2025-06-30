@@ -89,7 +89,7 @@ export default function BreedInfoPage() {
             <div className="relative">
               <div className="bg-ragdoll-blue-100 rounded-2xl p-8">
                 <img
-                  src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  src="/images/ragdoll-digendong.avif"
                   alt="Beautiful Ragdoll Cat"
                   className="w-full h-96 object-cover rounded-xl shadow-lg"
                 />

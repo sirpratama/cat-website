@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+          src="/images/ragdoll-with-pink-bg.jpg"
           alt="Beautiful Ragdoll Cat"
           className="w-full h-full object-cover"
         />
